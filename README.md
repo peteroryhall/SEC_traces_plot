@@ -19,3 +19,5 @@ Optional: install pandas for sample data
 ```bash
 micromamba install -c conda-forge pandas -y
 ```
+
+## Step 2: Running the Script to Plot your SEC Graph
