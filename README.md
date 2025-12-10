@@ -19,6 +19,11 @@ Optional: install pandas for sample data
 ```bash
 micromamba install -c conda-forge pandas -y
 ```
+Clone the SEC traces plotting repository
+```bash
+git clone https://github.com/peteroryhall/SEC_traces_plot.git
+cd SEC_traces_plot
+```
 
 ## Step 2: Running the Script to Plot Your SEC Graph
 
