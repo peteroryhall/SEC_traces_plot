@@ -5,11 +5,17 @@ This tutorial sets up the `sec-graphs` environment for plotting.
 ### Create the environment
 ```bash
 micromamba create -n sec-graphs -y
+```
 Activate the environment
+```bash
 micromamba activate sec-graphs
+```
 Install essential packages
+```
+```bash
 micromamba install -c conda-forge python matplotlib -y
+```
 Optional: install pandas for sample data
+```bash
 micromamba install -c conda-forge pandas -y
-
-If you want it even more compact (no subheadings, just one block), I can produce that version too.
+```
